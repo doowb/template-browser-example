@@ -1,0 +1,33 @@
+{
+  "name": "template-browser-example",
+  "description": "Example of using Template in a browser!!!",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/template-browser-example",
+  "author": {
+    "name": "Brian Woodward",
+    "url": "https://github.com/doowb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doowb/template-browser-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doowb/template-browser-example/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/doowb/template-browser-example/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
