@@ -28,6 +28,7 @@
   "devDependencies": {
     "browserify": "^8.0.3",
     "gulp": "^3.8.10",
+    "gulp-uglify": "^1.1.0",
     "mocha": "*",
     "should": "*",
     "vinyl-buffer": "^1.0.0",

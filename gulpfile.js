@@ -4,6 +4,7 @@ var browserify = require('browserify');
 var gulp = require('gulp');
 var source = require('vinyl-source-stream');
 var buffer = require('vinyl-buffer');
+var uglify = require('gulp-uglify');
 
 gulp.task('example', function () {
   var bundler = browserify('./src/app.js', { debug: true })
@@ -16,6 +17,7 @@ gulp.task('example', function () {
       .bundle()
       .pipe(source('app.js'))
       .pipe(buffer())
+      .pipe(uglify())
       .pipe(gulp.dest('./js/'));
   };
 
